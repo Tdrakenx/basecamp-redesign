@@ -424,8 +424,7 @@ main
 └── develop
     ├── feature/accueil
     ├── feature/tarifs
-    ├── feature/contact
-    └── feature/integration
+    └─── feature/contact
 ```
 
 Type de messages de commit :
