@@ -1,0 +1,823 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Basecamp — Tous vos projets au même endroit</title>
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/maquette.css" />
+  </head>
+  <body>
+    <a class="sr-only" href="#contenu">Aller au contenu</a>
+    <header class="site-header" data-name="Header">
+      <div class="container nav">
+        <a class="logo" href="index.html" aria-label="Basecamp — accueil">
+          <span class="logo-mark">
+            <img
+              class="ic"
+              src="assets/icons/logo-basecamp.svg"
+              alt="Logo Basecamp"
+            />
+          </span>
+          Basecamp
+        </a>
+        <nav aria-label="Navigation principale">
+          <ul class="nav-links">
+            <li><a href="index.html" aria-current="page">Accueil</a></li>
+            <li><a href="index.html#fonctionnalites">Fonctionnalités</a></li>
+            <li><a href="tarifs.html">Tarifs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="nav-actions">
+          <a class="btn btn--ghost btn--sm" href="https://basecamp.com/signin"
+            >Se connecter</a
+          >
+          <a class="btn btn--primary btn--sm" href="tarifs.html"
+            >Essayer gratuitement</a
+          >
+        </div>
+        <button
+          class="burger"
+          aria-label="Ouvrir le menu"
+          aria-expanded="false"
+          aria-controls="menu-mobile"
+        >
+          <img src="assets/icons/menu.svg" alt="Menu" />
+        </button>
+      </div>
+      <div class="mobile-menu" id="menu-mobile">
+        <a class="m-link" href="index.html" aria-current="page">
+          Accueil
+          <img
+            class="ic"
+            src="assets/icons/arrow-right.svg"
+            alt="arrow-right"
+          />
+        </a>
+        <a class="m-link" href="index.html#fonctionnalites"
+          >Fonctionnalités<img
+            class="ic"
+            src="assets/icons/arrow-right.svg"
+            alt="arrow-right"
+        /></a>
+        <a class="m-link" href="tarifs.html"
+          >Tarifs<img
+            class="ic"
+            src="assets/icons/arrow-right.svg"
+            alt="arrow-right"
+        /></a>
+        <a class="m-link" href="contact.html"
+          >Contact<img
+            class="ic"
+            src="assets/icons/arrow-right.svg"
+            alt="arrow-right"
+        /></a>
+        <div class="m-actions">
+          <a class="btn btn--primary btn--block" href="tarifs.html"
+            >Essayer gratuitement</a
+          >
+          <a
+            class="btn btn--secondary btn--block"
+            href="https://basecamp.com/signin"
+            >Se connecter</a
+          >
+        </div>
+      </div>
+    </header>
+    <main id="contenu">
+      <!-- ============ HERO ============ -->
+      <section class="hero" data-name="Hero">
+        <div class="container hero-grid">
+          <div>
+            <span class="badge badge--sky"
+              ><img class="ic" src="assets/icons/sparkles.svg" alt="Étoiles" />
+              Gestion de projet, sans le chaos</span
+            >
+            <h1 style="margin-top: 20px">
+              Tous vos projets.<br /><em>Un seul endroit.</em>
+            </h1>
+            <p class="lead">
+              Basecamp rassemble les tâches, les discussions, le calendrier et
+              les fichiers de votre équipe. Fini de chercher l'info entre les
+              mails, les chats et les dossiers partagés.
+            </p>
+            <div class="hero-ctas">
+              <a class="btn btn--primary" href="tarifs.html"
+                >Essayer gratuitement
+                <img
+                  class="ic"
+                  src="assets/icons/arrow-right.svg"
+                  alt="Logo Basecamp"
+              /></a>
+              <a class="btn btn--secondary" href="#demo"
+                >Voir comment ça marche</a
+              >
+            </div>
+            <ul class="hero-proof">
+              <li>
+                <img
+                  class="ic"
+                  src="assets/icons/circle-check.svg"
+                  alt="circle check"
+                />
+                Offre gratuite disponible
+              </li>
+              <li>
+                <img
+                  class="ic"
+                  src="assets/icons/circle-check.svg"
+                  alt="circle check"
+                />
+                Pas de frais par utilisateur
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" data-name="Illustration — tableau de bord">
+            <div
+              class="app"
+              role="img"
+              aria-label="Aperçu d'un projet Basecamp avec ses outils : tâches, messages, calendrier, fichiers, chat et tableau de cartes"
+            >
+              <div class="app-bar">
+                <div class="app-dots">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="app-url">
+                  <img class="ic" src="assets/icons/lock.svg" alt="lock" />
+                  3.basecamp.com/projets/refonte-site
+                </div>
+              </div>
+              <div class="app-body">
+                <div class="app-title">
+                  <strong>Refonte du site — Agence Nova</strong>
+                  <div class="avatars">
+                    <span class="av av--1">LM</span
+                    ><span class="av av--2">KS</span
+                    ><span class="av av--3">RB</span
+                    ><span class="av av--4">MN</span
+                    ><span class="av av--more">+3</span>
+                  </div>
+                </div>
+                <div class="app-grid">
+                  <div class="tool">
+                    <div class="tool-h">
+                      <img
+                        class="ic"
+                        src="assets/icons/list-checks.svg"
+                        alt="list-checks"
+                      />
+                      To-dos
+                    </div>
+                    <div class="todo done">
+                      <i class="cb done"
+                        ><img
+                          class="ic"
+                          src="assets/icons/check.svg"
+                          alt="check" /></i
+                      ><span>Valider l'arborescence</span>
+                    </div>
+                    <div class="todo done">
+                      <i class="cb done"
+                        ><img
+                          class="ic"
+                          src="assets/icons/check.svg"
+                          alt="check" /></i
+                      ><span>Choisir la palette</span>
+                    </div>
+                    <div class="todo">
+                      <i class="cb"></i><span>Maquette page Tarifs</span>
+                    </div>
+                    <div class="todo">
+                      <i class="cb"></i><span>Tests mobile</span>
+                    </div>
+                  </div>
+                  <div class="tool">
+                    <div class="tool-h">
+                      <img
+                        class="ic"
+                        src="assets/icons/message-square.svg"
+                        alt="message-square"
+                      />
+                      Messages
+                    </div>
+                    <div class="msg">
+                      <span class="av av--2">KS</span>
+                      <div><b>Point d'étape lundi</b><i>3 réponses</i></div>
+                    </div>
+                    <div class="msg">
+                      <span class="av av--4">MN</span>
+                      <div><b>Retours du client</b><i>Hier</i></div>
+                    </div>
+                    <div class="msg">
+                      <span class="av av--1">LM</span>
+                      <div><b>Planning V2</b><i>Il y a 2 j</i></div>
+                    </div>
+                  </div>
+                  <div class="tool">
+                    <div class="tool-h">
+                      <img
+                        class="ic"
+                        src="assets/icons/calendar-days.svg"
+                        alt="calendar-days"
+                      />
+                      Calendrier
+                    </div>
+                    <div class="cal">
+                      <span>3</span><span>4</span><span class="ev">5</span
+                      ><span>6</span><span>7</span><span>8</span><span>9</span>
+                      <span>10</span><span>11</span><span>12</span
+                      ><span class="ev2">13</span><span>14</span><span>15</span
+                      ><span>16</span> <span>17</span><span class="ev">18</span
+                      ><span>19</span><span>20</span><span>21</span
+                      ><span>22</span><span>23</span>
+                    </div>
+                  </div>
+                  <div class="tool">
+                    <div class="tool-h">
+                      <img
+                        class="ic"
+                        src="assets/icons/folder-open.svg"
+                        alt="folder-open"
+                      />
+                      Docs &amp; fichiers
+                    </div>
+                    <div class="files">
+                      <span class="file"
+                        ><img
+                          class="ic"
+                          src="assets/icons/file-text.svg"
+                          alt="file-text" /></span
+                      ><span class="file f2"
+                        ><img
+                          class="ic"
+                          src="assets/icons/file-text.svg"
+                          alt="file-text" /></span
+                      ><span class="file f3"
+                        ><img
+                          class="ic"
+                          src="assets/icons/file-text.svg"
+                          alt="file-text"
+                      /></span>
+                    </div>
+                    <div class="bar-line w80"></div>
+                    <div class="bar-line w40"></div>
+                  </div>
+                  <div class="tool">
+                    <div class="tool-h">
+                      <img
+                        class="ic"
+                        src="assets/icons/messages-square.svg"
+                        alt="messages-square"
+                      />
+                      Campfire
+                    </div>
+                    <span class="chat-b">On valide le hero&nbsp;?</span>
+                    <span class="chat-b me">Oui, go&nbsp;!</span>
+                  </div>
+                  <div class="tool">
+                    <div class="tool-h">
+                      <img
+                        class="ic"
+                        src="assets/icons/square-kanban.svg"
+                        alt="square-kanban"
+                      />
+                      Card Table
+                    </div>
+                    <div class="kanban">
+                      <div class="kcol">
+                        <small>À faire</small><i class="kcard"></i
+                        ><i class="kcard"></i>
+                      </div>
+                      <div class="kcol">
+                        <small>En cours</small><i class="kcard"></i>
+                      </div>
+                      <div class="kcol">
+                        <small>Fait</small><i class="kcard"></i
+                        ><i class="kcard"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PRÉSENTATION / PROBLÈMES ============ -->
+      <section class="section section--white" data-name="Présentation">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Le constat</span>
+            <h2>Quand un projet s'éparpille, l'équipe ralentit.</h2>
+            <p class="lead">
+              Un fil de mails par-ci, un chat par-là, des fichiers dans trois
+              dossiers différents… Au bout d'une semaine, plus personne ne sait
+              où en est le projet.
+            </p>
+          </div>
+          <div class="problems">
+            <article class="problem">
+              <div class="ic-x">
+                <img class="ic" src="assets/icons/inbox.svg" alt="inbox" />
+              </div>
+              <h3>Des infos dispersées</h3>
+              <p>
+                Les décisions sont noyées dans les boîtes mail et les
+                conversations privées.
+              </p>
+            </article>
+            <article class="problem">
+              <div class="ic-x">
+                <img class="ic" src="assets/icons/clock.svg" alt="clock" />
+              </div>
+              <h3>Des réunions pour rien</h3>
+              <p>
+                On organise un point juste pour savoir qui fait quoi et pour
+                quand.
+              </p>
+            </article>
+            <article class="problem">
+              <div class="ic-x">
+                <img class="ic" src="assets/icons/eye-off.svg" alt="eye-off" />
+              </div>
+              <h3>Aucune vue d'ensemble</h3>
+              <p>
+                Impossible de voir d'un coup d'œil ce qui avance et ce qui
+                bloque.
+              </p>
+            </article>
+          </div>
+          <div class="solution-strip">
+            <img class="ic" src="assets/icons/mountain.svg" alt="mountain" />
+            <p>
+              Basecamp regroupe tout le projet sur une seule page&nbsp;: chacun
+              sait quoi faire, et où trouver l'information.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FONCTIONNALITÉS ============ -->
+      <section class="section" id="fonctionnalites" data-name="Fonctionnalités">
+        <div class="container">
+          <div class="section-head section-head--center">
+            <span class="eyebrow">Fonctionnalités</span>
+            <h2>Les outils essentiels, réunis dans chaque projet</h2>
+            <p class="lead">
+              Pas besoin d'empiler cinq logiciels. Chaque projet Basecamp
+              contient déjà tout ce qu'il faut.
+            </p>
+          </div>
+          <div class="features">
+            <article class="card card--hover feature">
+              <div class="icon-tile">
+                <img
+                  class="ic"
+                  src="assets/icons/list-checks.svg"
+                  alt="list-checks"
+                />
+              </div>
+              <h3>Tâches</h3>
+              <p>
+                Créez des listes de to-dos, attribuez-les et fixez des
+                échéances. Tout le monde voit ce qui reste à faire.
+              </p>
+            </article>
+            <article class="card card--hover feature">
+              <div class="icon-tile">
+                <img
+                  class="ic"
+                  src="assets/icons/message-square.svg"
+                  alt="message-square"
+                />
+              </div>
+              <h3>Discussions</h3>
+              <p>
+                Le tableau de messages garde les échanges importants au même
+                endroit, classés par sujet.
+              </p>
+            </article>
+            <article class="card card--hover feature">
+              <div class="icon-tile">
+                <img
+                  class="ic"
+                  src="assets/icons/calendar-days.svg"
+                  alt="calendar-days"
+                />
+              </div>
+              <h3>Calendrier</h3>
+              <p>
+                Échéances, réunions et jalons du projet s'affichent dans un
+                planning partagé par toute l'équipe.
+              </p>
+            </article>
+            <article class="card card--hover feature">
+              <div class="icon-tile">
+                <img
+                  class="ic"
+                  src="assets/icons/folder-open.svg"
+                  alt="folder-open"
+                />
+              </div>
+              <h3>Documents &amp; fichiers</h3>
+              <p>
+                Rangez documents, images et versions de travail dans le projet
+                concerné, pas dans un dossier perdu.
+              </p>
+            </article>
+            <article class="card card--hover feature">
+              <div class="icon-tile">
+                <img
+                  class="ic"
+                  src="assets/icons/messages-square.svg"
+                  alt="messages-square"
+                />
+              </div>
+              <h3>Chat de groupe</h3>
+              <p>
+                Campfire, le chat du projet, pour les questions rapides qui ne
+                méritent pas un message.
+              </p>
+            </article>
+            <article class="card card--hover feature">
+              <div class="icon-tile">
+                <img class="ic" src="assets/icons/users.svg" alt="users" />
+              </div>
+              <h3>Collaboration</h3>
+              <p>
+                Invitez collègues, prestataires ou clients et choisissez ce que
+                chacun peut voir.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ DÉMONSTRATION ============ -->
+      <section class="section section--sky" id="demo" data-name="Démonstration">
+        <div class="container demo-grid">
+          <div>
+            <span class="eyebrow">Démonstration</span>
+            <h2>Un projet, de la première tâche à la livraison</h2>
+            <p class="lead">
+              Voici à quoi ressemble une liste de tâches dans Basecamp.
+            </p>
+            <div
+              class="demo-tabs"
+              role="tablist"
+              aria-label="Étapes de la démonstration"
+            >
+              <button class="demo-tab" role="tab" aria-selected="true">
+                <span class="num">1</span
+                ><span
+                  ><b>Organiser</b
+                  ><span class="d"
+                    >Découpez le projet en listes de tâches claires, avec un
+                    responsable et une date.</span
+                  ></span
+                >
+              </button>
+              <button class="demo-tab" role="tab" aria-selected="false">
+                <span class="num">2</span
+                ><span
+                  ><b>Échanger</b
+                  ><span class="d"
+                    >Commentez directement sur une tâche&nbsp;: la discussion
+                    reste attachée au bon sujet.</span
+                  ></span
+                >
+              </button>
+              <button class="demo-tab" role="tab" aria-selected="false">
+                <span class="num">3</span
+                ><span
+                  ><b>Suivre</b
+                  ><span class="d"
+                    >Visualisez l'avancement et repérez tout de suite ce qui
+                    bloque.</span
+                  ></span
+                >
+              </button>
+            </div>
+          </div>
+          <div
+            class="app app--demo"
+            data-name="Illustration — liste de tâches"
+            role="img"
+            aria-label="Aperçu d'une liste de tâches avec avancement de 62 %"
+          >
+            <div class="app-bar">
+              <div class="app-dots">
+                <span></span><span></span><span></span>
+              </div>
+              <div class="app-url">
+                <img class="ic" src="assets/icons/lock.svg" alt="lock" />
+                3.basecamp.com/projets/refonte-site/todos
+              </div>
+            </div>
+            <div class="app-split">
+              <aside class="app-side">
+                <div class="s-h">Refonte du site</div>
+                <a
+                  ><img
+                    class="ic"
+                    src="assets/icons/message-square.svg"
+                    alt="message-square"
+                  />
+                  Messages</a
+                >
+                <a class="on"
+                  ><img
+                    class="ic"
+                    src="assets/icons/list-checks.svg"
+                    alt="list-checks"
+                  />
+                  To-dos</a
+                >
+                <a
+                  ><img
+                    class="ic"
+                    src="assets/icons/calendar-days.svg"
+                    alt="calendar-days"
+                  />
+                  Calendrier</a
+                >
+                <a
+                  ><img
+                    class="ic"
+                    src="assets/icons/folder-open.svg"
+                    alt="folder-open"
+                  />
+                  Docs &amp; fichiers</a
+                >
+                <a
+                  ><img
+                    class="ic"
+                    src="assets/icons/messages-square.svg"
+                    alt="messages-square"
+                  />
+                  Campfire</a
+                >
+                <a
+                  ><img
+                    class="ic"
+                    src="assets/icons/square-kanban.svg"
+                    alt="square-kanban"
+                  />
+                  Card Table</a
+                >
+              </aside>
+              <div class="app-main">
+                <h4>Phase 2 — Maquettes</h4>
+                <div class="progress"><span></span></div>
+                <div class="tlist">
+                  <div class="trow done">
+                    <i class="cb done"
+                      ><img
+                        class="ic"
+                        src="assets/icons/check.svg"
+                        alt="check" /></i
+                    ><span class="t">Définir la charte graphique</span
+                    ><span class="who"
+                      ><span class="av av--2">KS</span><span>Keedy</span></span
+                    >
+                  </div>
+                  <div class="trow done">
+                    <i class="cb done"
+                      ><img
+                        class="ic"
+                        src="assets/icons/check.svg"
+                        alt="check" /></i
+                    ><span class="t">Maquette de la page d'accueil</span
+                    ><span class="who"
+                      ><span class="av av--2">KS</span><span>Keedy</span></span
+                    >
+                  </div>
+                  <div class="trow">
+                    <i class="cb"></i
+                    ><span class="t">Cartes tarifaires et comparatif</span
+                    ><span class="due">ven. 13</span
+                    ><span class="who"
+                      ><span class="av av--3">RB</span
+                      ><span>Redouane</span></span
+                    >
+                  </div>
+                  <div class="trow">
+                    <i class="cb"></i
+                    ><span class="t">Formulaire de contact + erreurs</span
+                    ><span class="due">lun. 16</span
+                    ><span class="who"
+                      ><span class="av av--4">MN</span
+                      ><span>Melvine</span></span
+                    >
+                  </div>
+                  <div class="trow">
+                    <i class="cb"></i
+                    ><span class="t">Tests sur mobile et tablette</span
+                    ><span class="who"
+                      ><span class="av av--1">LM</span><span>Équipe</span></span
+                    >
+                  </div>
+                </div>
+                <div class="add-row">
+                  <img class="ic" src="assets/icons/plus.svg" alt="plus" />
+                  Ajouter une tâche
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ AVANTAGES ============ -->
+      <section class="section section--white" data-name="Avantages">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Pourquoi Basecamp</span>
+            <h2>Moins d'outils, moins de bruit, plus de travail fait.</h2>
+          </div>
+          <div class="benefits">
+            <div class="benefit">
+              <div class="k">01</div>
+              <h3>Simplicité</h3>
+              <p>
+                Une interface claire, prise en main en quelques minutes, même
+                par les personnes peu à l'aise avec les outils.
+              </p>
+            </div>
+            <div class="benefit">
+              <div class="k">02</div>
+              <h3>Centralisation</h3>
+              <p>
+                Chaque projet a sa page avec ses tâches, messages, dates et
+                fichiers. Une seule adresse à retenir.
+              </p>
+            </div>
+            <div class="benefit">
+              <div class="k">03</div>
+              <h3>Collaboration</h3>
+              <p>
+                Équipe interne, freelances et clients travaillent ensemble, avec
+                des accès adaptés à chacun.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ TÉMOIGNAGES ============ -->
+      <section class="section" data-name="Témoignages">
+        <div class="container">
+          <div class="section-head section-head--center">
+            <span class="eyebrow">Témoignages</span>
+            <h2>Ils ont simplifié leur organisation</h2>
+          </div>
+          <div class="testimonials">
+            <figure class="card quote-card">
+              <img class="ic q" src="assets/icons/quote.svg" alt="quote" />
+              <blockquote>
+                «&nbsp;On a arrêté les réunions du lundi qui servaient juste à
+                faire le point. Tout est visible dans le projet.&nbsp;»
+              </blockquote>
+              <figcaption>
+                <span class="av av--2">CL</span
+                ><span
+                  ><b>Claire L.</b
+                  ><span>Cheffe de projet, agence web</span></span
+                >
+              </figcaption>
+            </figure>
+            <figure class="card quote-card">
+              <img class="ic q" src="assets/icons/quote.svg" alt="quote" />
+              <blockquote>
+                «&nbsp;Nos clients ont accès à leur projet. Ils voient
+                l'avancement sans nous envoyer dix mails par semaine.&nbsp;»
+              </blockquote>
+              <figcaption>
+                <span class="av av--1">YB</span
+                ><span
+                  ><b>Yanis B.</b><span>Fondateur, studio de design</span></span
+                >
+              </figcaption>
+            </figure>
+            <figure class="card quote-card">
+              <img class="ic q" src="assets/icons/quote.svg" alt="quote" />
+              <blockquote>
+                «&nbsp;Les nouveaux arrivants retrouvent tout l'historique d'un
+                projet en quelques clics.&nbsp;»
+              </blockquote>
+              <figcaption>
+                <span class="av av--4">SA</span
+                ><span
+                  ><b>Sofia A.</b
+                  ><span>Responsable d'équipe, association</span></span
+                >
+              </figcaption>
+            </figure>
+          </div>
+          <p class="fiction-note">
+            <img class="ic" src="assets/icons/info.svg" alt="info" />
+            Témoignages fictifs, rédigés pour illustrer ce projet étudiant.
+          </p>
+        </div>
+      </section>
+
+      <!-- ============ CTA ============ -->
+      <section class="section" style="padding-top: 0" data-name="CTA">
+        <div class="container">
+          <div class="cta-band">
+            <div>
+              <h2>Prêt à remettre de l'ordre dans vos projets&nbsp;?</h2>
+              <p>
+                Commencez avec l'offre gratuite, puis passez à une formule
+                adaptée quand votre équipe grandit.
+              </p>
+            </div>
+            <div class="actions">
+              <a class="btn btn--light" href="tarifs.html"
+                >Voir les tarifs
+                <img
+                  class="ic"
+                  src="assets/icons/arrow-right.svg"
+                  alt="Logo Basecamp"
+              /></a>
+              <a class="btn btn--outline-light" href="contact.html"
+                >Nous contacter</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" data-name="Footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a class="logo" href="index.html"
+              ><span class="logo-mark"
+                ><img
+                  class="ic"
+                  src="assets/icons/logo-basecamp.svg"
+                  alt="logo-basecamp" /></span
+              >Basecamp</a
+            >
+            <p>
+              L'outil de gestion de projet qui rassemble tâches, discussions,
+              calendrier et fichiers au même endroit.
+            </p>
+            <div class="socials">
+              <a href="https://x.com/basecamp">X</a>
+              <a href="https://www.youtube.com/@basecamp">YouTube</a>
+              <a href="https://www.linkedin.com/company/37signals">LinkedIn</a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Produit</h4>
+            <ul>
+              <li><a href="index.html#fonctionnalites">Fonctionnalités</a></li>
+              <li><a href="index.html#demo">Démonstration</a></li>
+              <li><a href="tarifs.html">Tarifs</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Aide</h4>
+            <ul>
+              <li>
+                <a href="https://basecamp.com/support">Questions fréquentes</a>
+              </li>
+              <li><a href="https://basecamp.com/help">Centre d'aide</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Projet</h4>
+            <ul>
+              <li><a href="https://basecamp.com/">Site officiel</a></li>
+              <li>
+                <a href="https://37signals.com/policies">Mentions légales</a>
+              </li>
+              <li>
+                <a href="https://github.com/Tdrakenx/basecamp-redesign"
+                  >Dépôt GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span
+            >Projet étudiant de refonte — non affilié à Basecamp ni à
+            37signals.</span
+          >
+          <span>Basecamp est une marque de 37signals LLC.</span>
+        </div>
+      </div>
+    </footer>
+    <a class="to-top" href="#" aria-label="Revenir en haut de la page"
+      ><img class="ic" src="assets/icons/arrow-up.svg" alt="arrow-up"
+    /></a>
+  </body>
+</html>
