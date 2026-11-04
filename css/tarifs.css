@@ -19,11 +19,16 @@ html {
     0 2px 4px rgba(0, 0, 0, 0.05),
     0 1px 2px rgba(0, 0, 0, 0.03);
   background-color: white;
-  max-width: 340px;
-  min-width: 340px;
+  width: 340px;
   padding: 16px;
   margin: auto;
   margin-top: 16px;
+}
+
+button {
+  border: 1px solid #163a5b;
+  border-radius: 16px;
+  background-color: white;
 }
 
 h1 {
@@ -65,5 +70,23 @@ p {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    justify-content: space-around;
+  }
+  .carte_tarif div {
+    margin: 0;
+    margin-top: 16px;
+  }
+}
+
+@media (min-width: 1137px) {
+  .carte_tarif {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .carte_tarif div {
+    margin: 0;
+    margin-top: 16px;
   }
 }
