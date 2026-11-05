@@ -9,6 +9,20 @@
 **Technologies :** HTML5, CSS3 et JavaScript natif\
 **Date :** 4 Novembre 2026
 
+<table align="center">
+  <tr>
+    <td width="50%" align="center">
+      <img width="100%" alt="Capture d'écran de la maquette (version bureau)" src="https://github.com/user-attachments/assets/70848646-b70f-4423-8067-74ce3580b3fb" />
+      <br /><br />
+      <img width="100%" alt="Capture d'écran de la maquette (bandeau)" src="https://github.com/user-attachments/assets/3917abf0-5dea-46ee-8036-6db057511270" />
+    </td>
+    <td width="50%" align="center" valign="middle">
+      <img width="100%" alt="Capture d'écran de la maquette (version mobile)" src="https://github.com/user-attachments/assets/e428c8bd-6aab-464c-9569-018901adc61e" />
+    </td>
+  </tr>
+</table>
+
+
 ------------------------------------------------------------------------
 
 ## 1. Présentation générale
