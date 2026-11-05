@@ -79,12 +79,11 @@ p {
   }
 }
 
-@media (min-width: 1137px) {
+@media (min-width: 1440px) {
   .carte_tarif {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
+    max-width: 796px;
   }
   .carte_tarif div {
     margin: 0;
