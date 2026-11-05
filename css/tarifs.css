@@ -69,13 +69,13 @@ p {
 @media (min-width: 768px) {
   .carte_tarif {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     justify-content: space-between;
     max-width: 796px;
   }
   .carte_tarif div {
-    margin: 0;
+    margin: auto;
     margin-top: 16px;
   }
 }
