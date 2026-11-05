@@ -23,6 +23,7 @@ html {
   padding: 16px;
   margin: auto;
   margin-top: 16px;
+  gap: 16px;
 }
 
 button {
@@ -69,8 +70,8 @@ p {
   .carte_tarif {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .carte_tarif div {
     margin: 0;
@@ -82,8 +83,8 @@ p {
   .carte_tarif {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
   }
   .carte_tarif div {
     margin: 0;
