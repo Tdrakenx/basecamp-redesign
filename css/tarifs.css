@@ -69,7 +69,7 @@ p {
 @media (min-width: 768px) {
   .carte_tarif {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
     max-width: 796px;
